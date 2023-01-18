@@ -127,14 +127,15 @@ nav ul li {
     margin-top: 50px;
 }
 
-.full-course-box h1 {
+.my-name {
+    text-transform: capitalize;
     background: linear-gradient(97.64deg, #eaaaff 15.56%, #b5acff 92.85%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
 }
 
-.my-sub-name {
-    /* color: #ff37f2; */
+#my-sub-title {
     background: linear-gradient(136.85deg, #ff37f2 -15.82%, #405aff 99.57%);
     -webkit-background-clip: text;
 }
