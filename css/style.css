@@ -192,8 +192,14 @@ footer {
     margin-left: 40px;
 }
 
+.fa-brands {
+    font-size: 30px;
+    margin: 10px;
+}
+
 .copy-text {
     text-align: center;
     margin-top: 70px;
     margin-bottom: 30px;
+    color: #8169a5;
 }
