@@ -163,3 +163,37 @@ nav ul li {
     color: #9bfccd;
     margin: 20px 20px;
 }
+
+/* footer style */
+footer {
+    color: white;
+    padding: 30px;
+    margin-top: 100px;
+    height: 500px;
+    background-image: url("../images/futuristic-dark-background-ripple-effect-web-pink-dots-big-data-illustration-technologies-artificial-intelligence-effect-particle-oscillation-3d-rendering_710001-333.jpg");
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+
+.footer-container {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.office-details,
+.useful-link,
+.follow-link {
+    line-height: 50px;
+}
+
+.useful-link {
+    margin-left: 40px;
+}
+
+.copy-text {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
