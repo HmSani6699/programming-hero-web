@@ -13,11 +13,17 @@ body {
     background-color: black;
     font-family: 'Poppins', sans-serif;
     width: 100%;
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
+header,
+main {
+    padding: 25px;
+}
+
 /* header section style */
+
 header {
     color: white;
 }
@@ -38,6 +44,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 nav ul {
@@ -90,4 +97,27 @@ nav ul li {
     height: 50px;
     width: 50px;
     cursor: pointer;
+}
+
+/* course detaile part */
+.course-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #150f2d;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.dl-btn {
+    background: linear-gradient(136.85deg, #ff37f2 -15.82%, #405aff 99.57%);
+    color: white;
+    border-radius: 25px;
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
 }
